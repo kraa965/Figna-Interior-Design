@@ -570,17 +570,9 @@ body {
   top: 50%;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.-mt-\[40\%\] {
-  margin-top: -40%;
 }
 
 .mb-11 {
@@ -599,44 +591,12 @@ body {
   margin-top: 0.25rem;
 }
 
-.mt-\[45px\] {
-  margin-top: 45px;
-}
-
-.mt-\[40\%\] {
-  margin-top: 40%;
-}
-
-.ml-7 {
-  margin-left: 1.75rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[49\%\] {
-  margin-left: 49%;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-\[20\%\] {
-  margin-top: 20%;
-}
-
-.mt-\[18\%\] {
-  margin-top: 18%;
-}
-
 .mt-\[17\%\] {
   margin-top: 17%;
+}
+
+.mt-\[45px\] {
+  margin-top: 45px;
 }
 
 .block {
@@ -667,14 +627,6 @@ body {
   height: 383px;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
 .w-\[30px\] {
   width: 30px;
 }
@@ -689,10 +641,6 @@ body {
 
 .max-w-\[567px\] {
   max-width: 567px;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .resize {
@@ -727,16 +675,8 @@ body {
   gap: 2rem;
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .rounded-2xl {
@@ -755,14 +695,6 @@ body {
 
 .bg-heroMain {
   background-image: url(../assets/Image.png);
-}
-
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-contain {
@@ -793,10 +725,6 @@ body {
 
 .pt-\[43px\] {
   padding-top: 43px;
-}
-
-.indent-1 {
-  text-indent: 0.25rem;
 }
 
 .font-dmserif {
@@ -969,10 +897,6 @@ body {
 @media (max-width: 991.99px) {
   .md\:block {
     display: block;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:px-6 {
