@@ -20,7 +20,8 @@ module.exports = {
       colors: {
         bulany: '#F4F0EC',
         anthracite: '#292F36',
-        sand: '#CDA274'
+        sand: '#CDA274',
+        coal: '#4D5053 ',
       }
     },
   },
