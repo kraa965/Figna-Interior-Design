@@ -812,6 +812,10 @@ body {
   border-radius: 9999px;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-bl-\[100px\] {
   border-bottom-left-radius: 100px;
 }
