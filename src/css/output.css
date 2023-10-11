@@ -579,12 +579,20 @@ body {
   margin-bottom: 2.75rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
 
 .ml-6 {
   margin-left: 1.5rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
 }
 
 .ml-\[20\%\] {
@@ -603,16 +611,16 @@ body {
   margin-top: 3rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.mt-\[15\%\] {
-  margin-top: 15%;
+.mt-\[200px\] {
+  margin-top: 200px;
 }
 
 .mt-\[20px\] {
@@ -621,6 +629,26 @@ body {
 
 .mt-\[45px\] {
   margin-top: 45px;
+}
+
+.mt-\[7\%\] {
+  margin-top: 7%;
+}
+
+.mt-\[9\%\] {
+  margin-top: 9%;
+}
+
+.mt-\[15\%\] {
+  margin-top: 15%;
+}
+
+.mt-\[19\%\] {
+  margin-top: 19%;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
 }
 
 .flex {
@@ -635,8 +663,8 @@ body {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-16 {
+  height: 4rem;
 }
 
 .h-5 {
@@ -655,60 +683,45 @@ body {
   height: 270px;
 }
 
-.h-\[339px\] {
-  height: 339px;
+.h-\[286px\] {
+  height: 286px;
 }
 
-.h-\[472px\] {
-  height: 472px;
+.h-full {
+  height: 100%;
 }
 
-.h-\[679px\] {
-  height: 679px;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-\[77px\] {
-  height: 77px;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.w-\[1119px\] {
-  width: 1119px;
+.h-\[900px\] {
+  height: 900px;
 }
 
 .w-\[1200px\] {
   width: 1200px;
 }
 
-.w-\[30px\] {
-  width: 30px;
+.w-\[296px\] {
+  width: 296px;
 }
 
-.w-\[370px\] {
-  width: 370px;
+.w-\[30px\] {
+  width: 30px;
 }
 
 .w-\[547px\] {
   width: 547px;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-\[257px\] {
-  width: 257px;
+.w-auto {
+  width: auto;
 }
 
 .max-w-\[1158px\] {
@@ -721,10 +734,6 @@ body {
 
 .max-w-\[600px\] {
   max-width: 600px;
-}
-
-.resize-x {
-  resize: horizontal;
 }
 
 .resize {
@@ -769,6 +778,10 @@ body {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-6 {
@@ -830,6 +843,10 @@ body {
   background-size: contain;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -859,16 +876,33 @@ body {
   padding-bottom: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-\[22px\] {
   padding-bottom: 22px;
 }
 
-.pl-9 {
-  padding-left: 2.25rem;
+.pb-\[88px\] {
+  padding-bottom: 88px;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-9 {
+  padding-right: 2.25rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .pt-2 {
@@ -940,14 +974,14 @@ body {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -970,16 +1004,16 @@ body {
   line-height: 2rem;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
 .leading-\[106px\] {
   line-height: 106px;
 }
 
 .leading-\[30px\] {
   line-height: 30px;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
 }
 
 .text-anthracite {
@@ -1121,6 +1155,10 @@ body {
 }
 
 @media (max-width: 991.99px) {
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .md\:h-\[500px\] {
     height: 500px;
   }
@@ -1141,10 +1179,6 @@ body {
     gap: 2rem;
   }
 
-  .md\:bg-center {
-    background-position: center;
-  }
-
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1163,6 +1197,21 @@ body {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1191,10 +1240,6 @@ body {
     border-top-right-radius: 200px;
   }
 
-  .sm\:bg-center {
-    background-position: center;
-  }
-
   .sm\:pt-5 {
     padding-top: 1.25rem;
   }
@@ -1213,12 +1258,12 @@ body {
     width: 400px;
   }
 
-  .xs\:rounded-tr-\[100px\] {
-    border-top-right-radius: 100px;
+  .xs\:w-full {
+    width: 100%;
   }
 
-  .xs\:bg-center {
-    background-position: center;
+  .xs\:rounded-tr-\[100px\] {
+    border-top-right-radius: 100px;
   }
 
   .xs\:px-3 {
