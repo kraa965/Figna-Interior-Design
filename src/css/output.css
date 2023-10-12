@@ -611,12 +611,28 @@ body {
   margin-top: 3rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
 }
 
 .mt-\[200px\] {
@@ -629,30 +645,6 @@ body {
 
 .mt-\[45px\] {
   margin-top: 45px;
-}
-
-.mt-\[7\%\] {
-  margin-top: 7%;
-}
-
-.mt-\[9\%\] {
-  margin-top: 9%;
-}
-
-.mt-\[15\%\] {
-  margin-top: 15%;
-}
-
-.mt-\[19\%\] {
-  margin-top: 19%;
-}
-
-.mt-\[10\%\] {
-  margin-top: 10%;
-}
-
-.mt-36 {
-  margin-top: 9rem;
 }
 
 .flex {
@@ -675,10 +667,6 @@ body {
   height: 1.25rem;
 }
 
-.h-\[1050px\] {
-  height: 1050px;
-}
-
 .h-\[1px\] {
   height: 1px;
 }
@@ -691,16 +679,16 @@ body {
   height: 286px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[900px\] {
   height: 900px;
 }
 
-.h-24 {
-  height: 6rem;
+.h-full {
+  height: 100%;
+}
+
+.w-\[1090px\] {
+  width: 1090px;
 }
 
 .w-\[1200px\] {
@@ -719,6 +707,10 @@ body {
   width: 547px;
 }
 
+.w-\[737px\] {
+  width: 737px;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -726,18 +718,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-\[57\] {
-  width: 57;
-}
-
-.w-\[1090px\] {
-  width: 1090px;
 }
 
 .max-w-\[1158px\] {
@@ -784,12 +764,24 @@ body {
   justify-content: space-between;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-24 {
+  gap: 6rem;
+}
+
+.gap-28 {
+  gap: 7rem;
 }
 
 .gap-3 {
@@ -816,10 +808,6 @@ body {
   gap: 75px;
 }
 
-.gap-28 {
-  gap: 7rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -836,12 +824,20 @@ body {
   border-radius: 9999px;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
 .rounded-bl-\[100px\] {
   border-bottom-left-radius: 100px;
+}
+
+.rounded-br-\[100px\] {
+  border-bottom-right-radius: 100px;
+}
+
+.rounded-tl-\[100px\] {
+  border-top-left-radius: 100px;
+}
+
+.rounded-tr-\[100px\] {
+  border-top-right-radius: 100px;
 }
 
 .rounded-tr-\[300px\] {
@@ -894,6 +890,11 @@ body {
   padding-right: 0.75rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -902,11 +903,6 @@ body {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pb-\[22px\] {
@@ -1044,6 +1040,10 @@ body {
   line-height: 30px;
 }
 
+.leading-\[62px\] {
+  line-height: 62px;
+}
+
 .text-anthracite {
   --tw-text-opacity: 1;
   color: rgb(41 47 54 / var(--tw-text-opacity));
@@ -1152,6 +1152,11 @@ body {
     height: 650px;
   }
 
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .lg\:max-w-\[350px\] {
     max-width: 350px;
   }
@@ -1216,12 +1221,17 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .md\:gap-8 {
     gap: 2rem;
   }
 
-  .md\:gap-10 {
-    gap: 2.5rem;
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:px-6 {
@@ -1234,14 +1244,19 @@ body {
     padding-bottom: 0.5rem;
   }
 
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-sm {
@@ -1253,23 +1268,9 @@ body {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (max-width: 767.99px) {
-  .sm\:mt-\[40px\] {
-    margin-top: 40px;
-  }
-
   .sm\:block {
     display: block;
   }
@@ -1282,16 +1283,8 @@ body {
     height: 350px;
   }
 
-  .sm\:w-\[600px\] {
-    width: 600px;
-  }
-
   .sm\:w-\[550px\] {
     width: 550px;
-  }
-
-  .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-2 {
@@ -1308,10 +1301,6 @@ body {
 }
 
 @media (max-width: 479.99px) {
-  .xs\:mt-\[220px\] {
-    margin-top: 220px;
-  }
-
   .xs\:h-\[270px\] {
     height: 270px;
   }
